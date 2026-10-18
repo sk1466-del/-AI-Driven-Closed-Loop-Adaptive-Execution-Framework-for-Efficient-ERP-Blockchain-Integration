@@ -1,31 +1,19 @@
-# -AI-Driven-Closed-Loop-Adaptive-Execution-Framework-for-Efficient-ERP-Blockchain-Integration
-An AI-driven framework for adaptive blockchain execution in ERP systems, integrating machine learning, workload prediction, transaction batching, and hybrid storage optimization.
+This directory includes a few sample datasets to get you started.
 
-## Overview
-This project presents an AI-driven framework designed to improve blockchain execution efficiency in ERP-inspired workloads through predictive analytics, adaptive execution control, and hybrid storage optimization.
+*   `california_housing_data*.csv` is California housing data from the 1990 US
+    Census; more information is available at:
+    https://docs.google.com/document/d/e/2PACX-1vRhYtsvc5eOR2FWNCwaBiKL6suIOrxJig8LcSBbmCbyYsayia_DvPOOBlXZ4CAlQ5nlDD8kTaIDRwrN/pub
 
-## Key Features
-- **Machine Learning:** Evaluates predictive models for blockchain workload and confirmation-latency analysis.
-- **Adaptive Execution:** Explores workload-aware transaction batching and execution-priority control.
-- **Hybrid Storage:** Estimates the impact of combining on-chain and off-chain storage.
-- **Performance Evaluation:** Uses publicly available Bitcoin blockchain traces for trace-driven simulation.
-- **Reproducible Experiments:** Applies chronological train/validation/test splits and baseline comparisons.
+*   `mnist_*.csv` is a small sample of the
+    [MNIST database](https://en.wikipedia.org/wiki/MNIST_database), which is
+    described at: http://yann.lecun.com/exdb/mnist/
 
-## Research Scope
-The framework integrates workload prediction, adaptive execution strategies, and storage management. The experimental evaluation is simulation-based; deployment in a production ERP–blockchain environment and continuous model retraining remain future work.
+*   `anscombe.json` contains a copy of
+    [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet); it
+    was originally described in
 
-## Technologies
-- Python
-- Machine Learning
-- Blockchain Analytics
-- Data Processing
-- Simulation-Based Evaluation
+    Anscombe, F. J. (1973). 'Graphs in Statistical Analysis'. American
+    Statistician. 27 (1): 17-21. JSTOR 2682899.
 
-## Research Focus
-ERP–Blockchain Integration, Adaptive Execution, Workload Prediction, Confirmation Latency, and Hybrid Storage Optimization.
-
-## Authors
-Sara Kamal, Shereen A. Taie, and Mohamed Hassan
-
-## Status
-Research prototype — experimental evaluation based on public blockchain traces.
+    and our copy was prepared by the
+    [vega_datasets library](https://github.com/altair-viz/vega_datasets/blob/4f67bdaad10f45e3549984e17e1b3088c731503d/vega_datasets/_data/anscombe.json).
